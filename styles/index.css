@@ -263,7 +263,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 38px;
+  margin-bottom: 31px;
   font-weight: 400;
   font-size: 15px;
   line-height: 16px;
@@ -314,7 +314,7 @@ h1 {
   font-size: 16px;
   line-height: 16px;
   color: #3D3D3D;
-  margin-top: 31px;
+  margin-top: 12px;
 }
 
 .product-card__price {
@@ -325,11 +325,37 @@ h1 {
   margin-top: 6px;
 }
 
-.catalog__pagination {
-  margin-top: 90px;      
+.product-card__active {
+  position: relative;
+}
+
+.product-card__active::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: green;
+}
+
+.product-card__active {
+  position: relative;
+}
+
+.product-card__icons {
   display: flex;
-  justify-content: flex-end; 
-  gap: 8px;   
+  justify-content: center; 
+  gap: 26px; 
+  position: absolute;
+  top: 240px;
+  left: 79px;
+ 
+}
+
+.product-card__icons img {
+  width: 16px;
+  height: 16px;
 }
 
 .discount-card {
@@ -343,6 +369,15 @@ h1 {
   width: 80px;  
   height: 29px;
   z-index: 10;  
+}
+
+
+
+.catalog__pagination {
+  margin-top: 90px;      
+  display: flex;
+  justify-content: flex-end; 
+  gap: 8px;   
 }
 
 .pagination__btn {
