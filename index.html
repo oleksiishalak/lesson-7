@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREENSHOP</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/font.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    
+</head>
+<body>
+   <header class="header container">
+    <div class="logo">
+        <img src="./assets/logos/logo-main.svg" alt="Greenshop main logo">
+        <span>GREENSHOP</span>
+    </div>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li><a href="#" class="nav-link header-active">Home</a></li>
+            <li><a href="#" class="nav-link">Shop</a></li>
+            <li><a href="#" class="nav-link">Plant Care</a></li>
+            <li><a href="#" class="nav-link">Blogs</a></li>
+        </ul>
+    </nav>
+    <a href="registration.html" class="login-btn">
+         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.1601 10.1006H8.12598" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M15.7212 7.67059L18.1612 10.1006L15.7212 12.5306" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M13.6342 6.35826C13.3592 3.37493 12.2425 2.2916 7.80082 2.2916C1.88332 2.2916 1.88332 4.2166 1.88332 9.99993C1.88332 15.7833 1.88332 17.7083 7.80082 17.7083C12.2425 17.7083 13.3592 16.6249 13.6342 13.6416" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Login
+        </a>
+
+</header>
+
+<main>
+    <section class="offer container">
+        <div class="left-side">
+            <h3>WELCOME TO GREENSHOP</h3>
+            <h1>Let’s Make a Better <span>Planet</span></h1>
+            <p>We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!</p>
+            <button class="btn-main">SHOP NOW</button>
+        </div>
+        <div class="right-side">
+        <img class="large-img" src="./assets/img /plant-big.png" alt="Large plant">
+        <img class="small-img" src="./assets/img /plant-small.png" alt="Small plant">
+        </div>
+    </section>
+
+<section class="catalog container">
+    <aside class="catalog__sidebar">
+           <div class="catalog__categories">
+            <h2 class="catalog__title">Categories</h2>
+            <ul class="catalog__list">
+ <li>
+    <a href="#" class="sidebar-active">
+      <span class="item-name">House Plants</span>
+      <span class="item-count">(33)</span>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <span class="item-name">Potter Plants</span>
+      <span class="item-count">(12)</span>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <span class="item-name">Seeds</span>
+      <span class="item-count">(65)</span>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <span class="item-name">Small Plants</span>
+      <span class="item-count">(39)</span>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <span class="item-name">Big Plants</span>
+      <span class="item-count">(23)</span>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <span class="item-name">Succulents</span>
+      <span class="item-count">(17)</span>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <span class="item-name">Terrariums</span>
+      <span class="item-count">(19)</span>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <span class="item-name">Gardening</span>
+      <span class="item-count">(13)</span>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <span class="item-name">Accessories</span>
+      <span class="item-count">(18)</span>
+    </a>
+  </li>
+</ul>
+    </div>
+       <div class="catalog__categories">
+        <div class="catalog__range">
+          <h2 class="catalog__title">Price Range</h2>
+            <input type="range" min="0" max="100" value="0" class="range">
+              <p>Price: <span>$39 - $1230</span></p>
+                <button class="filter-btn">Filter</button>
+       </div>
+           </div>
+    <div class="catalog__categories">
+       <h2 class="catalog__title">Size</h2>
+        <ul class="catalog__list">
+  <li>
+    <a href="#">
+      <span class="item-name">Small</span>
+      <span class="item-count">(119)</span>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <span class="item-name">Medium</span>
+      <span class="item-count">(86)</span>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <span class="item-name">Large</span>
+      <span class="item-count">(78)</span>
+    </a>
+  </li>
+</ul>
+</div>
+<div class="catalog__banner">
+ <img src="./assets/img /banners/catalog-banner.png" alt="Super Sale Banner">
+  </div>
+</aside>
+
+   
+<section class="catalog__content">
+    <div class="catalog-menu">
+      <div class="catalog-menu__filters">
+        <a href="#" class="filter-link__active">All Plants</a>
+        <a href="#">New Arrivals</a>
+        <a href="#">Sale</a>
+    </div>
+    <div class="catalog-menu__sort">
+       <label for="sort-select">Sort by:</label>
+       <select id="sort-select" name="sort">
+        <option value="default" selected>Default Sorting</option>
+        <img src="./assets/icons/arrow-down.svg">
+    </select>
+  </div>
+</div>
+
+    <div class="catalog__cards">
+      <div class="product-card">
+        <img class="product-img" src="./assets/img /products/product-card-1.png" alt="Product 1" class="product-card__image" />
+        <h3 class="product-card__title">Barberton Daisy</h3>
+        <p class="product-card__price">₴119</p>
+      </div>
+
+      <div class="product-card product-card__active">
+        <img class="product-img" src="./assets/img /products/product-card-2.png" alt="Product 2" class="product-card__image" />
+        <h3 class="product-card__title">Angel Wing Begonia</h3>
+        <p class="product-card__price">₴169</p>
+      </div>
+      <div class="product-card discount-card">
+        <img class="product-img" src="./assets/img /products/product-card-3.png" alt="Product 3" class="product-card__image" />
+        <img class="discount-badge" src="./assets/img /discount.png" alt="discount badge">
+        <h3 class="product-card__title">African Violet</h3>
+        <p class="product-card__price">₴199</p>
+      </div>
+      <div class="product-card">
+        <img class="product-img" src="./assets/img /products/product-card-4.png" alt="Product 4" class="product-card__image" width="250" height="250" />
+        <h3 class="product-card__title">Beach Spider Lily</h3>
+        <p class="product-card__price">₴129</p>
+      </div>
+      <div class="product-card">
+        <img class="product-img" src="./assets/img /products/product-card-5.png" alt="Product 5" class="product-card__image" width="250" height="250" />
+        <h3 class="product-card__title">Brushing Bromeliad</h3>
+        <p class="product-card__price">₴139</p>
+      </div>
+      <div class="product-card">
+        <img class="product-img" src="./assets/img /products/product-card-6.png" alt="Product 6" class="product-card__image" width="250" height="250" />
+        <h3 class="product-card__title">Aluminum Plant</h3>
+        <p class="product-card__price">₴179</p>
+      </div>
+      <div class="product-card">
+        <img class="product-img" src="./assets/img /products/product-card-7.png" alt="Product 7" class="product-card__image" />
+        <h3 class="product-card__title">Bird's Nest Fern</h3>
+        <p class="product-card__price">₴99</p>
+      </div>
+      <div class="product-card">
+        <img class="product-img" src="./assets/img /products/product-card-8.png" alt="Product 8" class="product-card__image" />
+        <h3 class="product-card__title">Broadleaf Lady Palm</h3>
+        <p class="product-card__price">₴59</p>
+      </div>
+      <div class="product-card">
+        <img class="product-img" src="./assets/img /products/product-card-9.png" alt="Product 9" class="product-card__image" />
+        <h3 class="product-card__title">Chinese Evergreen</h3>
+        <p class="product-card__price">₴39</p>
+      </div>
+    </div>
+
+    <div class="catalog__pagination">
+      <button class="pagination__btn pagination__btn-active">1</button>
+      <button class="pagination__btn">2</button>
+      <button class="pagination__btn">3</button>
+      <button class="pagination__btn"><img src="./assets/icons/arrow-right.svg" alt=""></button>
+    </div>
+  </section>
+    </section>
+
+
+        
+</main>
+
+</body>
+</html>
