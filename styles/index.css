@@ -64,6 +64,11 @@ body {
   width: 100%;
 }
 
+.login-box {
+  display: flex;
+  gap: 30px;
+}
+
 .login-btn {
   background-color: #46a358;
   color: #FFFFFF;
@@ -168,9 +173,9 @@ h1 {
 .catalog__sidebar {
   background-color: #FBFBFB;
   width: 310px;
-  height: 774px;
   padding: 14px 24px 19px 18px;
   display: flex;
+  justify-content: stretch;
   flex-direction: column;
 }
 
@@ -224,7 +229,6 @@ h1 {
   font-weight: 700;
 }
 
-
 .range {
   appearance: none;  
   width: 161px;
@@ -253,10 +257,10 @@ h1 {
 }
 
 .catalog__banner {
-  text-align: center; 
-  margin-top: 3px; 
-  display: inline-block;
-  margin-left: -47px;
+  display: flex;
+  align-self: flex-end;
+  margin-right: 47px;
+  width: 100%;
 }
 
 .catalog-menu {
